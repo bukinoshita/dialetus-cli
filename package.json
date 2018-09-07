@@ -1,6 +1,6 @@
 {
   "name": "dialetus",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A compilation of the most varied dialects spoken around Brazil",
   "main": "index.js",
   "repository": "git@github.com:bukinoshita/dialetus.git",
