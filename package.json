@@ -1,0 +1,44 @@
+{
+  "name": "dialetus",
+  "version": "0.0.0",
+  "description": "A compilation of the most varied dialects spoken around Brazil",
+  "main": "index.js",
+  "repository": "git@github.com:bukinoshita/dialetus.git",
+  "author": "bukinoshita <bukinoshita@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "xo --quiet"
+  },
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "keywords": [
+    "dialetus",
+    "dialects",
+    "dialect",
+    "brazil"
+  ],
+  "bin": {
+    "dialetus": "index.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "inquirer": "^6.2.0",
+    "meow": "^5.0.0",
+    "ora": "^3.0.0",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5",
+    "save-local": "^0.2.0",
+    "update-notifier": "^2.5.0"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^3.0.1",
+    "xo": "^0.23.0"
+  },
+  "xo": {
+    "extends": [
+      "prettier"
+    ]
+  }
+}
